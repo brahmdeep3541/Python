@@ -1,10 +1,7 @@
-pal = int(input("enter the number"))
+pal = input("Enter your string")
 
-rev = 1
-    
-    
-if rev == pal :
-        print("The Number is a palindrome")
-else :
-        print("The number is not a palindrome")
-    
+if  (pal== pal[:: -1]):
+        print("string is a plaindrome")
+
+else:
+        print("the string is not a plaindrome")
